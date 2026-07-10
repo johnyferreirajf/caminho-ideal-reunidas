@@ -41,3 +41,6 @@ ATUALIZAÇÃO V5
 ATUALIZAÇÃO V7:
 - Origem e destino em ordem alfabética.
 - Itens cujo nome começa com “Grãos” aparecem por último, também em ordem alfabética/natural.
+
+
+VERSÃO 8: painel mobile muito menor e recolhido por padrão. Use o botão ☰ para abrir e × para fechar.
