@@ -1,0 +1,43 @@
+PROJETO CAMINHO IDEAL REUNIDAS - ATUALIZADO
+
+Incluído:
+- Camada Mapa_Geral com 94 perímetros.
+- Rótulo NOME_FAZEN em preto, tamanho equivalente a 7 pt e halo branco de 0,7 px.
+- Google Híbrido como mapa-base padrão.
+- OpenStreetMap e opção sem mapa-base no controle de camadas.
+- GPS em tempo real, seleção origem/destino e menor rota.
+- Dados vetoriais incorporados para uso offline.
+
+IMPORTANTE SOBRE OFFLINE:
+O aplicativo, os perímetros, nomes, estradas, fazendas, GPS e cálculo de rota funcionam offline após o primeiro acesso por HTTPS. O Google Híbrido depende de internet e só poderá aparecer offline em partes anteriormente armazenadas pelo navegador. Sem internet, selecione “Sem mapa-base”.
+
+Hospede todos os arquivos juntos em um endereço HTTPS para permitir GPS e instalação como aplicativo.
+
+
+ATUALIZAÇÃO VISUAL:
+- Contorno das fazendas em preto.
+- Estradas em branco, tracejadas e com espessura reduzida.
+- Dados vetoriais e rede de rotas reconstruídos a partir do arquivo Caminho_Ideal_Reunidas-08072026(2).zip.
+
+
+VERSÃO 10/07/2026 - CORREÇÃO COMPLETA:
+- index.html atualizado com os dados do anexo mais recente.
+- Contornos das fazendas pretos (2,2 px).
+- Estradas brancas tracejadas, mais finas (1,35 px; padrão 5/6).
+- Cache do PWA alterado para evitar abertura do HTML antigo.
+- index.html usa atualização prioritária pela internet e fallback offline.
+
+
+ATUALIZAÇÃO V4: listas ORIGEM/DESTINO reconstruídas diretamente do atributo NOME_FAZEN da camada Centroide_Fazendas do arquivo mais recente. Cache PWA renovado.
+
+
+ATUALIZAÇÃO V5
+- Origem e destino em ordem alfabética.
+- Campo de pesquisa separado para origem e destino.
+- Pesquisa ignora acentos e diferença entre maiúsculas e minúsculas.
+- Novo cache do PWA para evitar carregamento da versão anterior.
+
+
+ATUALIZAÇÃO V7:
+- Origem e destino em ordem alfabética.
+- Itens cujo nome começa com “Grãos” aparecem por último, também em ordem alfabética/natural.
