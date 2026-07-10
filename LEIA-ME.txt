@@ -52,3 +52,5 @@ VERSÃO 9
 
 
 VERSÃO 10: o cálculo da rota não altera mais o centro nem o zoom do mapa. Atualizações do GPS também não recalculam nem reenquadram a rota automaticamente.
+
+VERSÃO 11: a rede foi reconstruída com todos os vértices das linhas. A rota verde agora acompanha a geometria curva/tracejada das estradas, em vez de ligar apenas as extremidades por segmentos retos.
