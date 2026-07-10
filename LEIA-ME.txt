@@ -1,3 +1,7 @@
+VERSÃO 12
+Correção: camada visual de estradas restaurada e cálculo de rotas reativado.
+A rede detalhada da versão 11 foi mantida.
+
 PROJETO CAMINHO IDEAL REUNIDAS - ATUALIZADO
 
 Incluído:
