@@ -49,3 +49,6 @@ VERSÃO 8: painel mobile muito menor e recolhido por padrão. Use o botão ☰ p
 VERSÃO 9
 - O acompanhamento do GPS atualiza a posição e a rota sem alterar o zoom escolhido pelo usuário.
 - O mapa só ajusta o enquadramento ao tocar em CALCULAR ROTA ou CENTRALIZAR NO GPS.
+
+
+VERSÃO 10: o cálculo da rota não altera mais o centro nem o zoom do mapa. Atualizações do GPS também não recalculam nem reenquadram a rota automaticamente.
