@@ -1,63 +1,13 @@
-VERSÃO 12
-Correção: camada visual de estradas restaurada e cálculo de rotas reativado.
-A rede detalhada da versão 11 foi mantida.
+Projeto simplificado do trajeto fixo da Reunidas Pontal.
 
-PROJETO CAMINHO IDEAL REUNIDAS - ATUALIZADO
+Arquivos principais:
+- index.html: mapa interativo simples com GPS e rótulos.
+- Atlas_Trajeto_Reunidas_Pontal.pdf: atlas com mapa em estilo híbrido, visão geral e tabela de coordenadas.
+- coordenadas_centros_poligonos.csv: coordenadas dos centros dos polígonos em formato decimal.
 
-Incluído:
-- Camada Mapa_Geral com 94 perímetros.
-- Rótulo NOME_FAZEN em preto, tamanho equivalente a 7 pt e halo branco de 0,7 px.
-- Google Híbrido como mapa-base padrão.
-- OpenStreetMap e opção sem mapa-base no controle de camadas.
-- GPS em tempo real, seleção origem/destino e menor rota.
-- Dados vetoriais incorporados para uso offline.
+Atualizações da versão 4:
+- remoção do alfinete azul e do raio de precisão no PDF;
+- rótulo do nome da estrada para cada feição da camada de rota;
+- mapa do atlas com informações mais destacadas.
 
-IMPORTANTE SOBRE OFFLINE:
-O aplicativo, os perímetros, nomes, estradas, fazendas, GPS e cálculo de rota funcionam offline após o primeiro acesso por HTTPS. O Google Híbrido depende de internet e só poderá aparecer offline em partes anteriormente armazenadas pelo navegador. Sem internet, selecione “Sem mapa-base”.
-
-Hospede todos os arquivos juntos em um endereço HTTPS para permitir GPS e instalação como aplicativo.
-
-
-ATUALIZAÇÃO VISUAL:
-- Contorno das fazendas em preto.
-- Estradas em branco, tracejadas e com espessura reduzida.
-- Dados vetoriais e rede de rotas reconstruídos a partir do arquivo Caminho_Ideal_Reunidas-08072026(2).zip.
-
-
-VERSÃO 10/07/2026 - CORREÇÃO COMPLETA:
-- index.html atualizado com os dados do anexo mais recente.
-- Contornos das fazendas pretos (2,2 px).
-- Estradas brancas tracejadas, mais finas (1,35 px; padrão 5/6).
-- Cache do PWA alterado para evitar abertura do HTML antigo.
-- index.html usa atualização prioritária pela internet e fallback offline.
-
-
-ATUALIZAÇÃO V4: listas ORIGEM/DESTINO reconstruídas diretamente do atributo NOME_FAZEN da camada Centroide_Fazendas do arquivo mais recente. Cache PWA renovado.
-
-
-ATUALIZAÇÃO V5
-- Origem e destino em ordem alfabética.
-- Campo de pesquisa separado para origem e destino.
-- Pesquisa ignora acentos e diferença entre maiúsculas e minúsculas.
-- Novo cache do PWA para evitar carregamento da versão anterior.
-
-
-ATUALIZAÇÃO V7:
-- Origem e destino em ordem alfabética.
-- Itens cujo nome começa com “Grãos” aparecem por último, também em ordem alfabética/natural.
-
-
-VERSÃO 8: painel mobile muito menor e recolhido por padrão. Use o botão ☰ para abrir e × para fechar.
-
-
-VERSÃO 9
-- O acompanhamento do GPS atualiza a posição e a rota sem alterar o zoom escolhido pelo usuário.
-- O mapa só ajusta o enquadramento ao tocar em CALCULAR ROTA ou CENTRALIZAR NO GPS.
-
-
-VERSÃO 10: o cálculo da rota não altera mais o centro nem o zoom do mapa. Atualizações do GPS também não recalculam nem reenquadram a rota automaticamente.
-
-VERSÃO 11: a rede foi reconstruída com todos os vértices das linhas. A rota verde agora acompanha a geometria curva/tracejada das estradas, em vez de ligar apenas as extremidades por segmentos retos.
-
-
-VERSÃO 13: fazendas e GPS conectados à maior rede viária contínua para evitar erro de rota; conectores azuis indicam acesso até a rede.
+Versao 5: atlas atualizado com o print enviado como mapa principal, sem alfinete azul/raio de precisao, mantendo rotulos da rota e dos poligonos.
