@@ -1,6 +1,6 @@
 {
-  "name": "Trajeto - Reunidas pontal",
-  "short_name": "Trajeto RP",
+  "name": "Trajeto - Origem Goiatuba",
+  "short_name": "Trajeto",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -8,7 +8,7 @@
   "theme_color": "#0b6736",
   "icons": [
     {
-      "src": "logo_reunidas_pontal.png",
+      "src": "icon.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"

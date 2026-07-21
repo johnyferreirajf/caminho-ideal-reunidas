@@ -1,7 +1,11 @@
-Projeto simplificado do Trajeto - Reunidas Pontal.
+Projeto simplificado do Trajeto - Origem Goiatuba.
 
-Atualização v6:
-- dados refeitos a partir do ZIP mais recente;
+Atualização v7:
+- removida a logo e toda referência ao nome anterior;
+- título do projeto alterado para "Trajeto - Origem Goiatuba";
+- página 2 do Atlas reorganizada na sequência:
+  GOIATUBA -> BOM JESUS -> CASA DO FILHO -> RESIDÊNCIA PRÓPRIA;
 - rota principal no site desenhada em verde forte;
 - rótulo do atributo NOME em cada feição da camada de rota;
-- cache offline atualizado para v6.
+- ícone do app substituído por um ícone neutro (icon.png);
+- cache offline atualizado para v7.
