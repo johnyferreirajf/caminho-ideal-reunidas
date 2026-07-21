@@ -1,13 +1,7 @@
-Projeto simplificado do trajeto fixo da Reunidas Pontal.
+Projeto simplificado do Trajeto - Reunidas Pontal.
 
-Arquivos principais:
-- index.html: mapa interativo simples com GPS e rótulos.
-- Atlas_Trajeto_Reunidas_Pontal.pdf: atlas com mapa em estilo híbrido, visão geral e tabela de coordenadas.
-- coordenadas_centros_poligonos.csv: coordenadas dos centros dos polígonos em formato decimal.
-
-Atualizações da versão 4:
-- remoção do alfinete azul e do raio de precisão no PDF;
-- rótulo do nome da estrada para cada feição da camada de rota;
-- mapa do atlas com informações mais destacadas.
-
-Versao 5: atlas atualizado com o print enviado como mapa principal, sem alfinete azul/raio de precisao, mantendo rotulos da rota e dos poligonos.
+Atualização v6:
+- dados refeitos a partir do ZIP mais recente;
+- rota principal no site desenhada em verde forte;
+- rótulo do atributo NOME em cada feição da camada de rota;
+- cache offline atualizado para v6.

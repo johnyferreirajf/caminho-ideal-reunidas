@@ -1,4 +1,4 @@
-const CACHE_NAME='trajeto-reunidas-pontal-v4';
+const CACHE_NAME='trajeto-reunidas-pontal-v6';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./logo_reunidas_pontal.png','./coordenadas_centros_poligonos.csv'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(ASSETS))); self.skipWaiting();});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k))))); self.clients.claim();});
